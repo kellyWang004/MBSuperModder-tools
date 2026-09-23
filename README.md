@@ -1,10 +1,11 @@
-# MBSuperModder tools
+# MBSuperModder internal-edition tools
 
-Mod development resources downloaded from the workbench Resource Downloads page.
+Development and packaging tools used by the internal edition of the workbench.
 
-- ConfuserEx/: tool binaries, used by the internal edition.
-- Prerequisites/: Harmony, ButterLib, UIExtenderEx and MCM reference bundles by version.
+- ConfuserEx/: tool binaries.
 
-Install alongside MBSuperModder/ in the container as ResourceTools/. Existing explicit tool paths remain supported. Resource updates use Git fast-forward only; local edits must be committed or backed up first.
+Install alongside MBSuperModder/ in the container as ResourceTools/. Explicit tool paths remain supported. Updates use Git fast-forward only.
+
+Optional prerequisite bundles have moved to https://github.com/kellyWang004/MBSuperModder-Pre-mod.git. Download them separately as Prerequisites/ alongside ResourceTools/. The workbench Resource Downloads page lists them as a separate optional resource.
 
 Third-party components retain their respective authorship and licenses.
